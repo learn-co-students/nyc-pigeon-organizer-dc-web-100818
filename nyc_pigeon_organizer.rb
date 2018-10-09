@@ -1,18 +1,22 @@
-# require "pry"
 # def nyc_pigeon_organizer(data)
 #   # write your code here!
-#   pigeon_data = {}
+#   pigeon_list = {}
 #
 #   data.each do |detail,info|
 #     info.each do |key,pegions|
 #       pegions.each do |pegion|
-#         if pigeon_data[:pegion] == nil
-#           pigeon_data[:pegion] = {}
-#         end
+#           if pigeon_list[pegion] == nil
+#            pigeon_list[pegion] = {}
+#             pigeon_list[pegion][detail] = []
+#           else
+#           pigeon_list[pegion] = [detail]
+#           end
 #       end
 #     end
 #   end
+#   pigeon_list
 # end
+
 
 
 def nyc_pigeon_organizer(data)
