@@ -17,7 +17,7 @@
   "Ms .K" => {
     :color => ["grey", "white"],
     :gender => ["female"],
-    :lives => ["Central Park"]
+    :lives => ["Centrakl Park"]
   },
   "Queenie" => {
     :color => ["white", "brown"],
